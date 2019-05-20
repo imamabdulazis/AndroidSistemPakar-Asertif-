@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">PERILAKU ASERTIF</string>
+    <string name="start_game">Materi</string>
+    <string name="statistics">Video</string>
+    <string name="instructions">Quiz</string>
+    <string name="acknowledgements">Tentang Aplikasi</string>
+
+    <!--welcome page subtitles-->
+    <string name="start_subtitle">Berisi Materi Tentang Perilaku Assertif</string>
+    <string name="statistics_subtitle">Video Penjelasan Penulis</string>
+    <string name="instructions_subtitle">Mulai Analisis</string>
+    <string name="acknowledgements_subtitle">Tentang Aplikasi</string>
+
+    <string name="no_stats">There are no statistics. Please complete a quiz first.</string>
+
+    <!--activity names-->
+    <string name="home">Home</string>
+    <string name="quiz">Quiz</string>
+    <string name="results">Quiz Result</string>
+
+    <!--button bar-->
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+</resources>

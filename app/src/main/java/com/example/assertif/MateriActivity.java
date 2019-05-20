@@ -1,0 +1,21 @@
+package com.example.assertif;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.webkit.WebView;
+
+public class MateriActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_materi);
+        getSupportActionBar().setTitle("Materi");
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        WebView mWebView;
+        mWebView = findViewById(R.id.index1);
+
+        mWebView.loadUrl("file:///android_asset/index.html");
+    }
+}
