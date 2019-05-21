@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient_background"
+    android:background="@drawable/back1"
     tools:context=".MainActivity"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
@@ -35,7 +35,7 @@
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:src="@drawable/logo_trivial_trivia"
+            android:src="@drawable/logo1"
             android:scaleType="fitCenter"
             android:adjustViewBounds="true"/>
 
